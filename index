@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cow Enthusiasts home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            p {
+                font-family:arial;
+            }
+            #bigcow {
+                font-size:30px;
+                font-family: comic sans ms;
+                color:blue;
+                text-align:center;
+            }
+            #tinyCow {
+                font-size:25px;
+                text-align:center;
+                font-family:serif sans;
+                color:blue;
+            }
+            #fluffCow {
+                width:45%;
+                margin-right:10px;
+                height:100%;
+            }
+            #doublecow {
+                width:45%;
+                height:100%;
+            }
+            #cowPic {
+                height:35vw;
+                margin-left:7.5%;
+            }
+            #nav {
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            #nav li {
+                display:inline;
+            }
+            #nav li a {
+                display:block;
+                display:inline;
+                color:white;
+                text-align:center;
+                padding:10px 10px;
+                background-color:blue;
+                margin:0;
+                text-decoration:none;
+                border-right:1pt solid white;
+                font-family:arial;
+                font-size:23px;
+            }
+            #nav li a:hover {
+                color:lightblue;
+            }
+            #nav li a:active {
+                font-size:20px;
+            }
+            #navBar {
+                background-color:blue;
+                box-shadow:10px 5px #b3b3b3;
+                width:95%;
+                margin-bottom:20px;
+            }
+            #wrapper {
+                margin:10px;
+            }
+            #cowHeader {
+                color:blue;
+                text-align:center;
+                box-shadow:10px 5px #b3b3b3;
+                background-color:#ccccb3;
+                font-size:20px;
+            }
+            p.cowText {
+                color:blue;
+                text-align:center;
+                font-size:18px;
+            }
+            #textBorder {
+                border-top:solid 3px blue;
+            }
+            #sideCow {
+                float:right;
+                width:30%;
+                height:100%;
+                border-left:solid blue 3px;
+                margin-left:5px;
+                padding:10px;
+            }
+            #sideCow h1 {
+                color:blue;
+                text-align:center;
+                border-bottom:solid 2px #b3b3b3;
+            }
+            #sideCow ul li {
+                list-style:none;
+                margin-bottom:10px;
+                border-bottom:solid 1px #b3b3b3;
+                text-align:center;
+            }
+            #cowFooter {
+                clear:both;
+                border:solid 2px blue;
+                background-color:#b3b3b3;
+            }
+            #cowfooter p {
+                text-align:center;
+                font-size:12px;
+                font-family:arial;
+            }
+            .dropbtn {
+                background-color: blue;
+                color: white;
+                padding: 10px 10px;
+                font-size: 23px;
+                border: none;
+                cursor: pointer;
+                font-family:arial;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 100%;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+                font-family:arial;
+            }
+            .dropdown-content a, .dropdown-content p {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1 box-shadow:;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown:hover .dropbtn {
+                background-color: #b3b3b3;
+            }
+            @media screen and (max-width: 500px) {
+                #nav li a {
+                    font-size:17.5px;
+                    padding:5px;
+                }
+                #bigCow {
+                    font-size:20px;
+                }
+                #cowHeader {
+                    font-size:15px;
+                }
+                #wrapper {
+                    margin:5px;
+                }
+                .dropbtn {
+                    font-size:17.5px;
+                }
+                img {
+                    max-width:100%;
+                }
+                #sideCow {
+                    display:none;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+             <h1 id="bigCow">Welcome To The Cow Enthusiasts!</h1>
+             <h1 id="tinyCow">Home</h1>
+            <div id="navBar">
+
+
+                <ul id="nav">
+                    <li><a href="http://html.editey.com/file/null/0BwKNTQgzHjq-TWltY2VMVHZ1TGM" target="_top">Home</a>
+                    </li>
+                    <li><a href="http://html.editey.com/file/0BwMFhDU8I6atS3cwX2Nkd0NXdU0" target="_top">About Cows</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="dropbtn">More Cows</button>
+                        <div class="dropdown-content">
+                             <a href="http://html.editey.com/file/0BwMFhDU8I6atNHNDbjJqbzdDVTA#" target="_top">Fluffy Cows</a>
+                             <a href="http://html.editey.com/file/null/0BwKNTQgzHjq-YzUyRkotUHBEQkk" target="_top">Highland Cattle</a>
+                             <a href="http://html.editey.com/file/null/0BwKNTQgzHjq-U1pCSUdveDhybkk#" target="_top">Bulls</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div id="cowPic">
+                <img id="fluffCow" src="http://www.picture-newsletter.com/cows/cow-d4y1.jpg" alt="Cow with bell image">
+
+                <img id="doublecow" src="http://modernfarmer.com/wp-content/uploads/2014/09/innercowhero.jpg" alt="Cow that sees all image">
+            </div>
+            <div id="text">
+                 <h3 id="cowHeader">Hello and welcome to the world of cows!</h3>
+                <div id="textBorder">
+                    <div id="sideCow">
+                         <h1>This week in cows</h1>
+                        <ul>
+                            <li>Iowa was the state this week to sell the most cattle. Glad to see some more cows out there!</li>
+                            <li>There are many more cattle in the market then normal. This is certain to be good for everyone.</li>
+                            <li>There is a cattle show March 18, 2017 14th Annual March Madness Preview Show Starts at Noon on Saturday March 18, 2017. Barns open at 3:00 pm Friday March 17. Be sure to get there!</li>
+                        </ul>
+                    </div>
+                    <p class="cowText">Cows are amazing animals we love cows and maybe you do to. They are interesting and can be very helpful to alot of peoples. Here you can learn as much about cows as you want!</p>
+                    <p class="cowText">we hope you enjoy our website and learn as much as you can about our best and beefiest friends.</p>
+                    <p class="cowText">Our website is the best place to answer any of your questions about our beefy brethren</p>
+
+                </div>
+            </div>
+
+            <div id="cowFooter">
+                <p>The Cow Enthusiasts \ est. Febuary 20th 2017</p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
